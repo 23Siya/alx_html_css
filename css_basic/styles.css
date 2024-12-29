@@ -16,9 +16,75 @@ main {
 }
 
 
+h1, h2 ,h3{
+  color: #333; /* Text color */
+}
+
+p {
+  line-height: 1.6; /* Line spacing */
+  color: #555; /* Text color */
+}
+
+/* Adding a border around the article */
 article {
-  flex: 2; 
-  overflow-y: auto; 
+	display: flex;
+  flex-direction: auto;
+  
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  width: 80%; /* Optional: Controls table width */
+}
+
+td, th {
+  padding: 10px;
+  text-align: center; /* Center-aligns text within cells */
+  vertical-align: middle; /* Vertically centers the content in each cell */
+}
+
+th {
+  background-color: #f4f4f4; /* Optional: Adds a background color to table headers */
+  font-weight: bold;
+}
+
+table, th, td {
+  border: 1px solid #ddd; /* Optional: Adds borders around the table and cells */
+}
+nav{
+	display: flex;
+  flex-direction: row
+}
+section {
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+}
+.logo {
+  font-size: 2rem; /* Makes the logo bigger */
+  color: #ff3366; /* Logo color */
+  padding: 10px;
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+header li {
+  margin-right: 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: #333;
 }
 
 aside {
@@ -36,6 +102,9 @@ header, footer {
 
 header {
   height: 60px;
+  background-color: #3498db;  /* Blue background for the header */
+    color: white;
+    padding: 10px 0;
 }
 
 footer {
