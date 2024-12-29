@@ -1,112 +1,369 @@
-body {
-  display: flex;
-  flex-direction: column;
-  font-family: Arial, sans-serif;  /* Set a global font */
-    background-color: #ecf0f1;  /* Light gray background for the body */
-    color: #2c3e50;  /* Dark text color */
-    margin: 0;
-  margin: 0;  
+
+header{
+	/* header */
+
+position: relative;
+width: 1103.41px;
+height: 29.46px;
+left: 171.59px;
+top: 35.02px;
+
+
 }
 
+.main_part {
 
-main {
-  display: flex;
-  flex-direction: row;
-  flex: auto; 
+background: #071629;
+position: absolute;
+width: 1440px;
+height: 1093px;
+left: 0px;
+top: 0px;
+
+}
+h2{
+position: absolute;
+height: 151px;
+left: 26.18%;
+right: 26.32%;
+top: calc(42% - 151px/2 - 251px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 120px;
+line-height: 151px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+}
+/* SMILES */
+.smiles{
+position: absolute;
+height: 20px;
+left: 41.18%;
+right: 55.21%;
+top: calc(50% - 20px/2 - 175.5px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+
+color: #FFFFFF;
+
 }
 
+/* GRIN */
+.grin{
+position: absolute;
+height: 20px;
+left: 48.89%;
+right: 48.61%;
+top: calc(50% - 20px/2 - 175.5px);
 
-h1, h2 ,h3{
-  color: #333; /* Text color */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+
+color: #FFFFFF;
+
 }
 
+/* LAUGH */
+.laugh{
+position: absolute;
+height: 20px;
+left: 55.35%;
+right: 41.25%;
+top: calc(50% - 20px/2 - 175.5px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.register{
+	
+	/* Button */
+
+
+
+/* REGISTER FOR FREE */
+
+position: absolute;
+height: 18px;
+left: 12.35%;
+right: 12.96%;
+top: calc(50% - 18px/2);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+	
+}
+
+.testimonials_part{
+	/* School Page */
+
+position: relative;
+width: 1440px;
+height: 3718px;
+
+background: #FFFFFF;
+
+}
+
+.tutorials_part{
+	
+}
+.free_membership_part{
+	
+}
+.FAQ_part{
+	
+}
+
+/* ©smileschool 2020 */
 p {
-  line-height: 1.6; /* Line spacing */
-  color: #555; /* Text color */
+position: absolute;
+height: 15px;
+left: 46.67%;
+right: 46.67%;
+top: calc(50% - 15px/2 + 78px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+opacity: 0.35;
 }
 
-/* Adding a border around the article */
-article {
-	display: flex;
-  flex-direction: auto;
-  
-  border: 2px solid #ccc;
-  padding: 20px;
-  margin: 20px;
-  background-color: white;
-}
-table {
-  margin-left: auto;
-  margin-right: auto;
-  border-collapse: collapse;
-  width: 80%; /* Optional: Controls table width */
-}
+footer{
+/* background */
+/* part_5_footer */
 
-td, th {
-  padding: 10px;
-  text-align: center; /* Center-aligns text within cells */
-  vertical-align: middle; /* Vertically centers the content in each cell */
-}
-
-th {
-  background-color: #f4f4f4; /* Optional: Adds a background color to table headers */
-  font-weight: bold;
-}
-
-table, th, td {
-  border: 1px solid #ddd; /* Optional: Adds borders around the table and cells */
-}
-nav{
-	display: flex;
-  flex-direction: row
-}
-section {
-  border: 2px solid #ccc;
-  padding: 20px;
-  margin: 20px;
-  background-color: white;
-}
-.logo {
-  font-size: 2rem; /* Makes the logo bigger */
-  color: #ff3366; /* Logo color */
-  padding: 10px;
-}
-
-header ul {
-  display: flex;
-  list-style-type: none;
-  padding: 0;
-}
-
-header li {
-  margin-right: 20px;
-}
-
-header a {
-  text-decoration: none;
-  color: #333;
-}
-
-aside {
-  flex: 1;  
-  overflow-y: auto; 
-}
+position: absolute;
+width: 1440px;
+height: 249px;
+left: 0px;
+top: 3469px;
 
 
-header, footer {
-  padding: 20px;
-  
-  text-align: center;
+
+background: #071629;
 }
-
-
-header {
-  height: 60px;
-  background-color: #3498db;  /* Blue background for the header */
-    color: white;
-    padding: 10px 0;
+.pros{
+	position: absolute;
+width: 1009px;
+height: 237px;
+left: 217px;
+top: 758px;
 }
+.pros_1{
+position: absolute;
+left: 15.07%;
+right: 74.51%;
+top: 69.35%;
+bottom: 8.97%;
 
-footer {
-  height: 60px;
+}
+.learn{
+	position: absolute;
+height: 40px;
+left: 41.94%;
+right: 34.93%;
+top: calc(50% - 40px/2 + 104.5px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+text-align: center;
+
+color: #C271FF;
+
+}
+.pros_2{
+	position: absolute;
+left: 35.14%;
+right: 54.44%;
+top: 69.35%;
+bottom: 8.97%;
+}
+.pros_3{
+	position: absolute;
+left: 54.65%;
+right: 34.93%;
+top: 69.35%;
+bottom: 8.97%;
+
+}
+.pros_4{
+position: absolute;
+left: 74.72%;
+right: 14.86%;
+top: 69.35%;
+bottom: 8.97%;
+}
+.phillip{
+position: absolute;
+height: 27px;
+left: 0%;
+right: 0%;
+top: calc(50% - 27px/2 + 55px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height, or 150% */
+text-align: center;
+
+color: #FFFFFF;}
+.smile_of{
+	position: absolute;
+height: 48px;
+left: 0%;
+right: 0%;
+top: calc(50% - 48px/2 + 94.5px);
+
+font-family: 'Source Sans Pro';
+font-style: italic;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+text-align: center;
+
+color: #FFFFFF;
+}
+.nannie{/* Nannie Lawrence */
+
+position: absolute;
+height: 27px;
+left: 0%;
+right: 0%;
+top: calc(50% - 27px/2 + 55px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height, or 150% */
+text-align: center;
+
+color: #FFFFFF;
+}
+.best{position: absolute;
+height: 48px;
+left: 0%;
+right: 0%;
+top: calc(50% - 48px/2 + 94.5px);
+
+font-family: 'Source Sans Pro';
+font-style: italic;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+text-align: center;
+
+color: #FFFFFF;
+}
+.bruce{/* Bruce Walters */
+
+position: absolute;
+height: 27px;
+left: 0%;
+right: 0%;
+top: calc(50% - 27px/2 + 55px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height, or 150% */
+text-align: center;
+
+color: #FFFFFF;}
+.friend{/* Best « Friend Smile */
+
+position: absolute;
+height: 48px;
+left: 0%;
+right: 0%;
+top: calc(50% - 48px/2 + 94.5px);
+
+font-family: 'Source Sans Pro';
+font-style: italic;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+text-align: center;
+
+color: #FFFFFF;}
+.henry{
+	position: absolute;
+height: 27px;
+left: 0%;
+right: 0%;
+top: calc(50% - 27px/2 + 55px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height, or 150% */
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.winner{
+	position: absolute;
+height: 48px;
+left: 0%;
+right: 0%;
+top: calc(50% - 48px/2 + 94.5px);
+
+font-family: 'Source Sans Pro';
+font-style: italic;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+text-align: center;
+
+color: #FFFFFF;
 }
