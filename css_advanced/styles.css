@@ -1,0 +1,285 @@
+body{
+/* School Page */
+
+width: 1440px;
+height: 3718px;
+top: -0px;
+left: -0px;
+gap: 0px;
+opacity: 0px;
+
+		
+}
+
+header{
+	/* header */
+
+
+width: 1103.41px;
+height: 29.46px;
+top: 35.02px;
+left: 171.59px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+#main_part{
+	
+	/* main_part */
+
+
+
+width: 1440px;
+height: 1093px;
+gap: 0px;
+opacity: 0px;
+
+
+
+background-image: url("Object.png");
+ 
+}
+
+#smile{
+	/* SMILES */
+
+position: absolute;
+height: 20px;
+left: 41.18%;
+right: 55.21%;
+top: calc(70% - 20px/2 - 175.5px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+#grin{
+	/* GRIN */
+
+position: absolute;
+height: 20px;
+left: 48.89%;
+right: 48.61%;
+top: calc(70% - 20px/2 - 175.5px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+#laugh{
+	/* LAUGH */
+
+position: absolute;
+height: 20px;
+left: 55.35%;
+right: 41.25%;
+top: calc(70% - 20px/2 - 175.5px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+}
+
+#main_part{
+	
+	/* main_part */
+
+
+
+width: 1440px;
+height: 1093px;
+gap: 0px;
+opacity: 0px;
+
+
+
+background-image: url("Object.png");
+ 
+}
+
+#schooled{
+
+/* Get schooled */
+
+position: absolute;
+height: 151px;
+left: 26.18%;
+right: 26.32%;
+top: calc(50% - 151px/2 - 251px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 151px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+
+
+
+#register-button{
+	
+	/* Button */
+
+position: absolute;
+left: 44.38%;
+right: 44.38%;
+top: 48.33%;
+bottom: 57.64%;
+
+filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+color: white;
+
+width: 162px;
+height: 44px;
+top: 419px;
+left: 639px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+
+span{
+	color: #C271FF;
+}
+#learn{
+	/* Learn from the pros */
+
+position: absolute;
+height: 40px;
+left: 41.94%;
+right: 39.93%;
+top: calc(10% - 40px/2 + 104.5px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 40px;
+text-align: center;
+
+
+
+}
+
+#pros{
+	
+	/* pros */
+
+position: absolute;
+width: 1009px;
+height: 237px;
+left: 217px;
+top: 758px;
+
+}
+.grid-item1{
+	/* pro_1 */
+
+position: absolute;
+left: 15.07%;
+right: 74.51%;
+top: 20.35%;
+bottom: 8.97%;
+
+ color:white;
+}
+
+.grid-item2{
+	/* pro_2 */
+
+position: absolute;
+left: 35.14%;
+right: 54.44%;
+top: 20.35%;
+bottom: 8.97%;
+ color:white;
+
+}
+.grid-item3{
+	/* pro_3 */
+
+position: absolute;
+left: 54.65%;
+right: 34.93%;
+top: 20.35%;
+bottom: 8.97%;
+
+
+ color:white;
+
+}
+.grid-item4{
+	/* pro_4 */
+
+position: absolute;
+left: 74.72%;
+right: 14.86%;
+top: 20.35%;
+bottom: 8.97%;
+
+ color:white;
+}
+
+#testimonials{
+
+/* part_1_testimonials */
+
+position: absolute;
+width: 1440px;
+height: 392px;
+left: -1px;
+top: 1093px;
+/* background */
+
+position: absolute;
+width: 1440px;
+height: 392px;
+left: -1px;
+top: 1093px;
+
+background: #C271FF;
+
+
+}
+.testimony{
+/* text */
+
+position: absolute;
+width: 730px;
+height: 158px;
+left: 472px;
+top: 80px;
+
+color : white;
+
+}
