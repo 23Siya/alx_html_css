@@ -163,29 +163,66 @@ height: 184px;
 left: 358px;
 top: 886px;
 text-align: center;
+
 }
 
 .icons{
 	
-  /* part_2_icons */
+/* part_2_icons */
 
 position: absolute;
 width: 1002px;
 height: 193px;
 left: 200px;
 top: 1191px;
+display: inline;
+
 
 
 }
 
-icons .icon1{
+.icons .icon1{
 	/* ic_01 */
 
 position: absolute;
 width: 207px;
 height: 180px;
-left: 200px;
-top: 1204px;
+left: 80px;
+top: 54px;
+
+
+}
+
+.icons .icon2{
+	/* ic_02 */
+
+position: absolute;
+width: 207px;
+height: 193px;
+left: 345px;
+top: 54px;
+
+
+}
+.icons .icon3{
+	/* ic_03 */
+
+position: absolute;
+width: 207px;
+height: 179px;
+left: 610px;
+top: 54px;
+
+
+}
+.icons .icon4{
+	/* ic_04 */
+
+position: absolute;
+width: 207px;
+height: 180px;
+left: 875px;
+top: 54px;
 
 
 }
