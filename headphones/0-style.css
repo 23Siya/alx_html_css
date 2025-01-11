@@ -226,3 +226,145 @@ top: 54px;
 
 
 }
+
+.part_3_dark{
+	
+	/* part_3_dark */
+
+position: absolute;
+width: 1400px;
+height: 650px;
+left: 1px;
+top: 1494px;
+
+background-image: url("headphones_hero_2.jpg");
+}
+.part_3_dark p{
+	/* Lorem ipsum dolor si Copy 2 */
+
+position: absolute;
+height: 104px;
+left: 20.29%;
+right: 27.21%;
+top: calc(40% - 104px/2 - 52px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+
+.dot_1{
+	/* dot_1 */
+
+position: absolute;
+left: 4.79%;
+right: 21.64%;
+top: 50.62%;
+bottom: 12.15%;
+
+
+}
+.dot_1 h4{
+	/* dot_1 */
+
+position: absolute;
+left: 54.79%;
+
+top:28.62%;
+color: #FFFFFF;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: bold;
+font-size: 42px;
+
+}
+
+.dot_1 p{
+	/* Lorem ipsum dolor */
+
+position: absolute;
+height: 26px;
+left: 37.05%;
+right: 20.53%;
+
+top: calc(58.62% - 26px/2 + 34px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+/* identical to box height, or 186% */
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+
+
+
+.dot_2{
+	/* dot_2 */
+
+position: absolute;
+left: 34.79%;
+right: 21.64%;
+top: 50.62%;
+bottom: 12.15%;
+
+}
+.dot_2 h4{
+	/* dot_2 */
+
+position: absolute;
+left: 33.79%;
+right: 52.64%;
+top: 58.62%;
+bottom: 12.15%;
+
+
+}
+
+.dot_2 p{
+	/* Lorem ipsum dolor */
+
+/* Lorem ipsum dolor */
+
+position: absolute;
+height: 26px;
+left: 21.05%;
+right: 20.53%;
+top: calc(50% - 26px/2 + 34px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+/* identical to box height, or 186% */
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.part_3_dark dot_2 a{
+	/* dot_2 */
+
+position: absolute;
+left: 33.79%;
+right: 52.64%;
+top: 38.62%;
+bottom: 12.15%;
+
+
+}
