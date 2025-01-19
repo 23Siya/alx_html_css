@@ -1,0 +1,483 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: Arial, sans-serif;
+}
+body{
+    
+  
+    background-position: top;
+    background-size: cover;
+   
+
+}
+header {
+  position: relative; /* Fix the header at the top of the page */
+  top: 0;
+  left: 0;
+   width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+  background-color: transparent;
+   z-index: 1000;
+  
+}
+
+
+.logo img {
+position: absolute;
+height: 32px;
+left: 10.61px;
+top: 27.76px;
+
+
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+	transition: color 0.3s ease;
+}
+a {
+display: inline-block;
+text-decoration: none;
+padding: 1.5rem 2rem;
+font-weight: bold;
+color: #f0f8ff;
+font-size: 1.1rem;
+transition: color 0.3s ease;
+}
+a :hover{
+    width: 100%;
+	  color: #007BFF;
+}
+a span{
+    margin-top: 3px;
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #00203fff;
+    border-radius: 5px;
+    transition: 4s;
+}
+.search{
+    margin: 1rem;
+}
+input{
+    padding: 5px;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    width: 12rem;
+
+}
+::placeholder{
+ color: black;   
+}
+nav h2{
+    font-family: 3rem;
+    margin: .5rem 2;
+    color: #00203fff;
+}
+nav {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+}
+#hamburger{
+    display: none;
+}
+
+
+.main_part{
+	background-image: url('headphones_hero_1.jpg');
+	position: absolute;
+  height :100vh;
+left: 0%;
+right: 0%;
+top: calc(50% - 40px/2 - 137.09px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+text-align: center;
+
+width:100%;
+
+margin-top: transparent;
+
+
+
+/* background */
+
+top:10px;
+
+color: #FFFFFF;
+}
+
+.main_part .text {
+margin-top :30%;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  background: transparent; /* Dark overlay */
+  padding: 10px;
+  border-radius: 10px;
+  
+  
+}
+
+.text h2{
+	font-size: 30px;
+	
+}
+
+.text h3{
+	font-size: 20px;
+	
+}
+
+.text .btn{
+	
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #FF6565;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 1rem;
+ 
+  transition: background-color 0.3s ease;
+ text-align: center;
+ display:block;
+ margin:auto:
+  }
+  
+  .btn a {
+	  color: white;
+	  text-decoration: none;
+	  font-size: 20px;
+	  padding:10px;
+	  
+	  
+  }
+  .text p{
+	   font-size: 15px;
+  }
+  
+label{
+    position: absolute;
+    right: 1rem;
+    top:1rem;
+    background: #f0f8ff;
+    display : none; 
+}
+label span{
+    height:4px;
+    width: 2rem;
+    background-color: #00203fff;
+    display: block;
+    margin: 3px;
+}
+@media (min-width:480px) and (max-width:1000px  ){
+header {
+    clip-path: none;
+    align-items: center;
+    text-align: center;
+}
+nav {
+    justify-content:center ;
+    background-color:#f0f8ff;
+    transform: none;
+}
+
+.navbar{
+    align-items: center;
+position: absolute;
+width: 70%;
+align-items: center;
+
+transform: translateY(-25rem);
+transition: .5s;
+}
+li ,a {
+    display: block;
+    text-align: center;
+    background-color: #00203fff;
+    color: white;
+}
+a span{
+    display: none;
+}
+a:hover{
+    color:  #FF6565;
+    background-color: #f0f8ff;
+    opacity: 0.9;
+}
+label {
+    display: block;
+}
+.search{
+    display: none;
+}
+#hamburger:checked + .navbar{
+    transform: translateY(0);
+}
+}
+
+.what_section{
+	background:none;
+	color:#071629;
+		/* part_1_what_we_do */
+
+position: absolute;
+width: 937px;
+height: 384px;
+left: 358px;
+top: 886px;
+text-align: center;
+
+
+/* Lorem ipsum dolor si Copy */
+
+
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+}
+
+
+.icons{
+	
+/* part_2_icons */
+margin-top:0%;
+position: absolute;
+width: 1002px;
+height: 193px;
+left: 200px;
+top: 1191px;
+display: inline;
+color:#071629;
+/* Lorem ipsum dolor si */
+
+
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+/* or 186% */
+text-align: center;
+
+color: #071629;
+
+
+
+
+
+}
+
+.icons .icon1{
+	/* ic_01 */
+
+position: absolute;
+width: 207px;
+height: 180px;
+left: 80px;
+top: 54px;
+
+
+}
+
+.icons .icon2{
+	/* ic_02 */
+
+position: absolute;
+width: 207px;
+height: 193px;
+left: 345px;
+top: 54px;
+
+
+}
+.icons .icon3{
+	/* ic_03 */
+
+position: absolute;
+width: 207px;
+height: 179px;
+left: 610px;
+top: 54px;
+
+
+}
+.icons .icon4{
+	/* ic_04 */
+
+position: absolute;
+width: 207px;
+height: 180px;
+left: 875px;
+top: 54px;
+
+
+}
+
+
+.our_results{
+	
+	/* part_3_dark */
+
+position: absolute;
+width: 1400px;
+height: 650px;
+left: 0%;
+top: 1494px;
+width:100%;
+background-image: url("headphones_hero_2.jpg");
+}
+.our_results p{
+	/* Lorem ipsum dolor si Copy 2 */
+
+position: absolute;
+height: 104px;
+left: 20.29%;
+right: 27.21%;
+top: calc(40% - 104px/2 - 52px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+
+.dot_1{
+	/* dot_1 */
+
+position: absolute;
+left: 4.79%;
+right: 21.64%;
+top: 50.62%;
+bottom: 12.15%;
+
+
+}
+.dot_1 h4{
+	/* dot_1 */
+
+position: absolute;
+left: 54.79%;
+
+top:28.62%;
+color: #FFFFFF;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: bold;
+font-size: 42px;
+
+}
+
+.dot_1 p{
+	/* Lorem ipsum dolor */
+
+position: absolute;
+height: 26px;
+left: 37.05%;
+right: 20.53%;
+
+top: calc(58.62% - 26px/2 + 34px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+/* identical to box height, or 186% */
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+
+
+
+.dot_2{
+	/* dot_2 */
+
+position: absolute;
+left: 34.79%;
+right: 21.64%;
+top: 50.62%;
+bottom: 12.15%;
+
+}
+.dot_2 h4{
+	/* dot_2 */
+
+position: absolute;
+left: 33.79%;
+right: 52.64%;
+top: 58.62%;
+bottom: 12.15%;
+
+
+}
+
+.dot_2 p{
+	/* Lorem ipsum dolor */
+
+/* Lorem ipsum dolor */
+
+position: absolute;
+height: 26px;
+left: 21.05%;
+right: 20.53%;
+top: calc(50% - 26px/2 + 34px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+/* identical to box height, or 186% */
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.our_results dot_2 a{
+	/* dot_2 */
+
+position: absolute;
+left: 33.79%;
+right: 52.64%;
+top: 38.62%;
+bottom: 12.15%;
+
+
+}
+
+
