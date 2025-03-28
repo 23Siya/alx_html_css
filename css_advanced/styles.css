@@ -222,3 +222,78 @@ justify-content: start-right;
  width: 10px;
 
 }
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Make sure section is visible */
+.free_membership_section {
+    text-align: center;
+    padding: 40px 20px;
+    display: block;
+    background-color: #f8f8f8;
+    border: 2px solid #ddd; /* Temporary border for debugging */
+}
+
+/* Ensure h2 is displayed */
+.free_membership_section h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Membership items container */
+.membership-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+/* Each membership item */
+.dot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* The visual dot (circle) */
+.smile{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Register button */
+#register-button {
+    margin-top: 20px;
+	background:#C271FF;
+}
+
+#register-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#register-button a:hover {
+    background: #0056b3;
+}
